@@ -48,7 +48,7 @@ fun calenderOfEventsCard(
             )
 
             Text(
-                text = fest.date.dayFormat(),
+                text = "",
                 textAlign = TextAlign.Center,
                 fontSize = 24.sp,
                 style = Typography.labelMedium,

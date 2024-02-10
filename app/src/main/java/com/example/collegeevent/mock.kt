@@ -5,12 +5,13 @@ import androidx.annotation.RequiresApi
 import com.example.collegeevent.models.dayEvent
 import com.example.collegeevent.models.fest
 import java.time.LocalDate
+import java.time.LocalDateTime
 
 @RequiresApi(Build.VERSION_CODES.O)
 val mockEvents= listOf<fest>(
     fest(
         "Fiesta",
-        LocalDate.now().plusDays(5),
+        LocalDateTime.now().plusDays(5),
         events = listOf(
             dayEvent(
                 "Quiz",
@@ -31,7 +32,7 @@ val mockEvents= listOf<fest>(
 
     fest(
         "Impethon",
-        LocalDate.now().plusDays(10),
+        LocalDateTime.now().plusDays(10),
         events = listOf(
             dayEvent(
                 "MockInterview",
@@ -51,7 +52,7 @@ val mockEvents= listOf<fest>(
     ),
     fest(
         "2nd sem exam",
-        LocalDate.now().plusDays(20),
+        LocalDateTime.now().plusDays(20),
         events = listOf(
             dayEvent(
                 "Maths",
@@ -62,7 +63,7 @@ val mockEvents= listOf<fest>(
     ),
     fest(
         "Hostel day",
-        LocalDate.now().plusDays(50),
+        LocalDateTime.now().plusDays(50),
         listOf(
             dayEvent(
                 "Dance",

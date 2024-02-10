@@ -56,7 +56,7 @@ fun festBox(
                 )
                 Text(
                     modifier = Modifier.padding(top = 5.dp),
-                    text = fest.date.dayFormat(),
+                    text = "fest.date)",
                     textAlign = TextAlign.Center
                 )
             }

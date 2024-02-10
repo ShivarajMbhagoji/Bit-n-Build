@@ -42,7 +42,7 @@ fun eventCard(
                 verticalAlignment = Alignment.CenterVertically
             ){
                 Text(text = fest.name, style = Typography.titleLarge)
-                Text(text = fest.date.dayFormat())
+                Text(text = "fest.date")
             }
             Divider(modifier=Modifier.padding(start = 16.dp), thickness = 1.dp, color = Color.Gray)
             
